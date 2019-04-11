@@ -1,0 +1,133 @@
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\FileToStudents.h:3,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:3,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.cpp:1:
+C:\Users\Mark\Documents\GitHub\assignment4\Queuer.h:4:7: error: redefinition of 'class Queuer'
+ class Queuer
+       ^~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\Attendant.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.cpp:1:
+C:\Users\Mark\Documents\GitHub\assignment4\Queuer.h:4:7: note: previous definition of 'class Queuer'
+ class Queuer
+       ^~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\GenList.h:2,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\ListQueue.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\FileToStudents.h:4,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:3,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.cpp:1:
+C:\Users\Mark\Documents\GitHub\assignment4\ListNode.h:5:7: error: redefinition of 'class ListNode<T>'
+ class ListNode
+       ^~~~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\GenList.h:2,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\Median.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineStats.h:2,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:2,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.cpp:1:
+C:\Users\Mark\Documents\GitHub\assignment4\ListNode.h:5:7: note: previous definition of 'class ListNode<T>'
+ class ListNode
+       ^~~~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\ListQueue.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\FileToStudents.h:4,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:3,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.cpp:1:
+C:\Users\Mark\Documents\GitHub\assignment4\GenList.h:8:7: error: redefinition of 'class GenList<T>'
+ class GenList
+       ^~~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\Median.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineStats.h:2,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:2,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.cpp:1:
+C:\Users\Mark\Documents\GitHub\assignment4\GenList.h:8:7: note: previous definition of 'class GenList<T>'
+ class GenList
+       ^~~~~~~
+C:\Users\Mark\Documents\GitHub\assignment4\LineManager.cpp:4:1: error: no declaration matches 'LineManager::LineManager(unsigned int)'
+ LineManager::LineManager(unsigned int numWindows)
+ ^~~~~~~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.cpp:1:
+C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:7:7: note: candidates are: 'constexpr LineManager::LineManager(const LineManager&)'
+ class LineManager
+       ^~~~~~~~~~~
+C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:10:3: note:                 'LineManager::LineManager(unsigned int, std::__cxx11::string)'
+   LineManager(unsigned int numWindows, string filePath);
+   ^~~~~~~~~~~
+C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:7:7: note: 'class LineManager' defined here
+ class LineManager
+       ^~~~~~~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\FileToStudents.h:3,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:3:
+C:\Users\Mark\Documents\GitHub\assignment4\Queuer.h:4:7: error: redefinition of 'class Queuer'
+ class Queuer
+       ^~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\Attendant.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:1:
+C:\Users\Mark\Documents\GitHub\assignment4\Queuer.h:4:7: note: previous definition of 'class Queuer'
+ class Queuer
+       ^~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\GenList.h:2,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\ListQueue.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\FileToStudents.h:4,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:3:
+C:\Users\Mark\Documents\GitHub\assignment4\ListNode.h:5:7: error: redefinition of 'class ListNode<T>'
+ class ListNode
+       ^~~~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\GenList.h:2,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\Median.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineStats.h:2,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:2:
+C:\Users\Mark\Documents\GitHub\assignment4\ListNode.h:5:7: note: previous definition of 'class ListNode<T>'
+ class ListNode
+       ^~~~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\ListQueue.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\FileToStudents.h:4,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:3:
+C:\Users\Mark\Documents\GitHub\assignment4\GenList.h:8:7: error: redefinition of 'class GenList<T>'
+ class GenList
+       ^~~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\Median.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineStats.h:2,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:2:
+C:\Users\Mark\Documents\GitHub\assignment4\GenList.h:8:7: note: previous definition of 'class GenList<T>'
+ class GenList
+       ^~~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\FileToStudents.h:3,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:3,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\main.cpp:1:
+C:\Users\Mark\Documents\GitHub\assignment4\Queuer.h:4:7: error: redefinition of 'class Queuer'
+ class Queuer
+       ^~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\Attendant.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\main.cpp:1:
+C:\Users\Mark\Documents\GitHub\assignment4\Queuer.h:4:7: note: previous definition of 'class Queuer'
+ class Queuer
+       ^~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\GenList.h:2,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\ListQueue.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\FileToStudents.h:4,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:3,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\main.cpp:1:
+C:\Users\Mark\Documents\GitHub\assignment4\ListNode.h:5:7: error: redefinition of 'class ListNode<T>'
+ class ListNode
+       ^~~~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\GenList.h:2,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\Median.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineStats.h:2,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:2,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\main.cpp:1:
+C:\Users\Mark\Documents\GitHub\assignment4\ListNode.h:5:7: note: previous definition of 'class ListNode<T>'
+ class ListNode
+       ^~~~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\ListQueue.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\FileToStudents.h:4,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:3,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\main.cpp:1:
+C:\Users\Mark\Documents\GitHub\assignment4\GenList.h:8:7: error: redefinition of 'class GenList<T>'
+ class GenList
+       ^~~~~~~
+In file included from C:\Users\Mark\Documents\GitHub\assignment4\Median.h:1,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineStats.h:2,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\LineManager.h:2,
+                 from C:\Users\Mark\Documents\GitHub\assignment4\main.cpp:1:
+C:\Users\Mark\Documents\GitHub\assignment4\GenList.h:8:7: note: previous definition of 'class GenList<T>'
+ class GenList
+       ^~~~~~~
